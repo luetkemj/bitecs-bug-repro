@@ -41,7 +41,7 @@ export const fovSystem = (world) => {
 
 fovSystem(world);
 
-// add fov component to first 25 entities
+// add fov component to next 25 entities
 for (let i = 10; i < 35; i++) {
   addComponent(world, InFov, i);
 }
